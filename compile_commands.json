@@ -1,0 +1,19 @@
+[
+  {
+    "file": "src/main.c",
+    "arguments": [
+      "/usr/bin/cc",
+      "-g",
+      "-Wall",
+      "-Werror",
+      "-Wextra",
+      "-Iinclude",
+      "-c",
+      "src/main.c",
+      "-o",
+      "src/main.o"
+    ],
+    "directory": "/Users/inzagi/work/ft_ping",
+    "output": "src/main.o"
+  }
+]
