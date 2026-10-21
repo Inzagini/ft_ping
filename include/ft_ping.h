@@ -4,10 +4,11 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <netinet/in.h>
-#include <netinet/ip.h>
 #include <netinet/ip_icmp.h>
 #include <stdio.h>
 #include <string.h>
+#include <time.h>
+#include <unistd.h>
 
 #define PACKET_SIZE 64
 #define HEADER_SIZE (PACKET_SIZE - sizeof(struct icmphdr))
